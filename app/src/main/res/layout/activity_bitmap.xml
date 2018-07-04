@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/info_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="显示信息"/>
+
+    <Button
+        android:id="@+id/no_compress_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不压缩"/>
+    <Button
+        android:id="@+id/quality_compress_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="质量压缩"/>
+    <Button
+        android:id="@+id/sample_compress_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="采样压缩"/>
+    <Button
+        android:id="@+id/scale_compress_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缩放压缩"/>
+    <Button
+        android:id="@+id/rgb_compress_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rgb565压缩"/>
+
+</LinearLayout>

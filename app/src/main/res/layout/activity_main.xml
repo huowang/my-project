@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jiji.mydemo.MainActivity">
+
+    <Button
+        android:id="@+id/web_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳TEST页面" />
+
+    <Button
+        android:id="@+id/video_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳视频页面" />
+
+    <Button
+        android:id="@+id/gsy_video_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gsy视频页面" />
+
+    <Button
+        android:id="@+id/bluetooth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳蓝牙页面" />
+
+    <Button
+        android:id="@+id/sensor_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳传感器页面" />
+
+    <Button
+        android:id="@+id/bitmap_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳图片压缩页面" />
+
+    <Button
+        android:id="@+id/custom_view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳自定义view页面" />
+
+    <com.jiji.mydemo.CustomTitleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        custom:titleText="8888888"
+        custom:titleTextColor="@color/colorAccent"
+        custom:titleTextSize="18sp" />
+</LinearLayout>
